@@ -1,4 +1,5 @@
 # keiken-week1-day1-ex1
+
 ### How Permissions Are Granted to Delete a File ?
 In Linux, to delete a file the user should have both write and execute permissions on the directory containing that file. we use chmod linux command to give permissions to owner, groups and others. 
 
