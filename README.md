@@ -1,6 +1,9 @@
 # keiken-week1-day1-ex1
-### How Permissions Are Granted to Delete a File
+### How Permissions Are Granted to Delete a File ?
 In Linux, to delete a file the user should have both write and execute permissions on the directory containing that file. we use chmod linux command to give permissions to owner, groups and others. 
+
+**Important** : We treated the case of the root as directory of the file.
+
 ### Create a file that your colleague can edit but not delete:
 To allow the colleague to edit but not delete a file: 
 *********************
@@ -17,7 +20,6 @@ edit but not delete
 *******************
 here the collegue only write permissions.
 
-**Important** : We treated the case of the root as directory of the file.
  ### Does it make sense to be able to assign such rights?
 Yes, it makes sense to assign such rights as they help maintain data integrity by preventing accidental or unauthorized deletion of important files during collaborative editing.
 ### What are the practical consequences of this experience?
