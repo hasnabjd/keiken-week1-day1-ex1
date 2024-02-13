@@ -8,7 +8,7 @@ To allow the colleague to edit but not delete a file:
 `chmod 664 editok` 
 ********************
 here the collegue has read and write permissions
-### and Create a file that your can delete but not edit :
+### Create a file that your can delete but not edit :
 Conversely, to allow the colleague to delete but not edit a file, we need to grant write permission to the directory and read permission to the file itself.
 edit but not delete
 *******************
@@ -16,6 +16,7 @@ edit but not delete
 `chmod 622 deleteok` 
 *******************
 here the collegue only write permissions.
+
 **Important** : We treated the case of the root as directory of the file.
  ### Does it make sense to be able to assign such rights?
 Yes, it makes sense to assign such rights as they help maintain data integrity by preventing accidental or unauthorized deletion of important files during collaborative editing.
